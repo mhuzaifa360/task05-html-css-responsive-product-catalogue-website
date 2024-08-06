@@ -92,3 +92,40 @@ body{
 .smart-phones .card img{
     width: 130px;
 }
+
+.laptops{
+    width: 100%;
+    height: 330px;
+    background: #f2b5e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.laptops h2{
+    text-align: center;
+}
+
+.laptops .row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* height: 100vh; */
+    justify-content: space-evenly;
+}
+
+.laptops .row2 .cardl{
+    width: 300px;
+    height: 270px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.laptops .cardl img{
+    width: 200px;
+}
+.cardl h3{
+    text-align: center;
+}
