@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #d2e9ef;
+}
+.navbar{
+    background: #5293cc;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar img{
+    width: 150px;
+}
+.icons img{
+    /* color: #c93939; */
+    width: 30px;
+}
+
+.home-content{
+    width: 100%;
+    height: 350px;
+    background: #d6eebe;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 2%; */
+    justify-content: space-around;
+
+}
+.vertical-navbar{
+    width: 28%;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 190%;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vertical-navbar h2{
+    background: purple;
+    color: white;
+}
+.vertical-navbar a{
+    text-decoration: none;
+    color: black;
+}
+.img img{
+    /* padding-left: 3%; */
+    width: 80%;
+    height: 270px;
+    /* z-index: 3; */
+}
+
+.smart-phones{
+    width: 100%;
+    height: 330px;
+    background: #9bf0cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.smart-phones h2{
+    text-align: center;
+}
+.smart-phones .row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* height: 100vh; */
+    justify-content: space-evenly;
+}
+.smart-phones .row1 .card{
+    width: 200px;
+    height: 270px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.smart-phones .card img{
+    width: 130px;
+}
