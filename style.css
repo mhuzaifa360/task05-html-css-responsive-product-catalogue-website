@@ -4,6 +4,7 @@
 }
 body{
     background: #d2e9ef;
+    
 }
 
 /* *------ NAVBAR  ------------ */
@@ -68,42 +69,82 @@ body{
 .home-content{
     width: 100%;
     height: 350px;
-    background: #d6eebe;
+    /* height: 100vh; */
+    /* background: #d6eebe; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* padding: 2%; */
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 .vertical-navbar{
-    width: 24%;
+    width: 350px;
     height: 280px;
     background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 190%;
+    line-height: 44px;
     font-size: larger;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.vertical-navbar h2{
-    background: purple;
+.vertical-navbar .list{
+    height: 100%;
+    width: 70%;
+    /* background: #bdbbbb; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.vertical-navbar .list .head{
+    width: 100%;
+    background: #090979;
+    color: white;
+    text-align: center;
+}
+.vertical-navbar .list .p{
+    width: 100%;
+    text-align: center;
+    /* font-weight: 900; */
+    
+}
+.vertical-navbar .list .p:hover{
+    color: white;
+    background: #090979;
+}
+.vertical-navbar .list .p i{
+    width: 200%;
+    /* background: #000; */
+}
+.vertical-navbar .list .p i:hover{
+
     color: white;
 }
-.vertical-navbar a{
+.vertical-navbar .list .p a{
+
     text-decoration: none;
     color: black;
 }
+.p a:hover{
+    color: #fff;
+}
+
+
+
+
 .home-content-img{
-    background: #000;
+    /* background: #000; */
     width: 70%;
 }
 .home-content-img img{
     width: 100%;
     height: 270px;
+    /* height: 100%; */
 }
 .home-content-img .text{
     width: 68%;
@@ -125,7 +166,8 @@ body{
 /* *------ SMART PHONES  ------------ */
 .smart-phones{
     width: 100%;
-    height: 330px;
+
+    height: 50%;
     background: #9bf0cc;
     display: flex;
     flex-direction: column;
@@ -143,23 +185,26 @@ body{
     justify-content: space-evenly;
 }
 .smart-phones .row1 .card{
-    width: 200px;
-    height: 270px;
+    width: 290px;
+    height: 46%;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    line-height: 30px;
 }
 .smart-phones .card img{
-    width: 130px;
+    width: 100%;
 }
 
 /* *------ LAPTOPS ------------ */
 .laptops{
     width: 100%;
     height: 330px;
-    background: #f2b5e4; 
+    /* background: #f2b5e4;  */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -197,7 +242,7 @@ body{
 .smart-watches{
     width: 100%;
     height: 830px;
-    background: #f9c092;
+    /* background: #f9c092; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
