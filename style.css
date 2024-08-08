@@ -1,9 +1,22 @@
+@font-face {
+    font-family: 'font 1';
+    src: url(./fonts/Aclonica/Aclonica-Regular.ttf);
+}
+@font-face {
+    font-family: 'font 2';
+    src: url(./fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+    font-family: 'font 3';
+    src: url(./fonts/Pacifico/Pacifico-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background: #d2e9ef;
+    background: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -68,9 +81,11 @@ body{
 /* *------ HOME CONTENT  ------------ */
 .home-content{
     width: 100%;
-    height: 350px;
+    /* height: 350px; */
     /* height: 100vh; */
     /* background: #d6eebe; */
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,15 +181,22 @@ body{
 /* *------ SMART PHONES  ------------ */
 .smart-phones{
     width: 100%;
-
-    height: 50%;
-    background: #9bf0cc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 900px; */
+    /* background: #9bf0cc; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.smart-phones h2{
+.smart-phones span{
     text-align: center;
+    padding-bottom: 40px;
+    font-family: 'font 1';
+    font-size: 40px;
+    color: #090979;
+    text-decoration: underline;
+
 }
 .smart-phones .row1{
     display: flex;
@@ -185,7 +207,7 @@ body{
     justify-content: space-evenly;
 }
 .smart-phones .row1 .card{
-    width: 290px;
+    width: 260px;
     height: 46%;
     background: #fff;
     display: flex;
@@ -195,16 +217,34 @@ body{
     margin-bottom: 20px;
     padding: 15px;
     line-height: 30px;
+    border-radius: 10px;
+    border:  3px outset #090979;
+    box-shadow: 8px 8px 10px 4px  gray;
+    outline: 5px solid white;
 }
 .smart-phones .card img{
     width: 100%;
 }
+.smart-phones .card h2{
+    /* font-size:  40px; */
+    color: #090979;
+}
+.smart-phones .card h3{
+    background: #090979;
+    color: #fff;
+    padding: 7px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /* *------ LAPTOPS ------------ */
 .laptops{
     width: 100%;
-    height: 330px;
-    /* background: #f2b5e4;  */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 430px; */
+    background: #f2b5e4; 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -241,7 +281,9 @@ body{
 /* *------SMART WATCHES ------------ */
 .smart-watches{
     width: 100%;
-    height: 830px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 830px; */
     /* background: #f9c092; */
     display: flex;
     flex-direction: column;
@@ -282,7 +324,9 @@ body{
 footer{
     width: 100%;
     height: 80px;
-    background: #dedbdb;
+    /* background: #dedbdb; */
+    background: #090979;
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -291,4 +335,5 @@ footer{
 .footer-icons img{
     /* color: #c93939; */
     width: 50px;
+    /* box-shadow: 1px 1px 6px 8px white; */
 }
