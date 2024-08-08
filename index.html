@@ -11,16 +11,24 @@
 <body>
 
     <!--!-------navbar section----------->
-    <div class="navbar">
+    <div class="navbar" id="home">
 
         <div class="logo">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/royal tech logo.png" alt="">
         </div>
 
         <div class="search-bar">
-            <form action="">
-                <input type="search" placeholder="search">
-            </form>
+            <div class="bar">
+                <form action="">
+                    <input type="search" placeholder="search">
+                </form>
+
+            </div>
+            <div class="icon">
+
+                <i class="fa-brands fa-searchengin"></i>
+            </div>
+
         </div>
 
         <div class="icons">
@@ -35,10 +43,10 @@
         <div class="vertical-navbar">
             <h2>All Categories</h2>
             <a href="#">Home</a>
-            <a href="#">Smart phones</a>
-            <a href="#">Laptops</a>
-            <a href="#">Smart Watches</a>
-            <a href="#">Contact Us</a>
+            <a href="#smart-phones">Smart phones</a>
+            <a href="#laptops">Laptops</a>
+            <a href="#smart-watches">Smart Watches</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
         <div class="img">
            <img src="./images/Screenshot (2).png" alt="">
@@ -46,7 +54,7 @@
     </div>
 
     <!--!-------smart phone----------->
-    <div class="smart-phones">
+    <div class="smart-phones" id="smart-phones">
 
         <h2>Smart Phones</h2>
 
@@ -87,7 +95,7 @@
     </div>
 
     <!--!-------laptops ----------->
-    <div class="laptops">
+    <div class="laptops" id="laptops">
 
         <h2>Laptop</h2>
 
@@ -113,28 +121,57 @@
                 <h3>Dell latitude 2340</h3>
             </div>
            
+           
         </div>
     </div>
 
     <!--!-------smart watches ----------->
-    <div class="smart-watches">
+    <div class="smart-watches" id="smart-watches">
+
         <h2>Smart watches</h2>
-        <div class="cards-area">
-            <div class="card1 card"></div>
-            <div class="card2 card"></div>
-            <div class="card3 card"></div>
-            <div class="card4 card"></div>
+
+        <div class="row3">
+
+            <div class="card1 cardw">
+                <img src="./images/zero-luna-smart.webp" alt="">
+                <h1>Zero Luna <br>Smart Watch</h1>
+            </div>
+            
+
+            <div class="card2 cardw">
+                <img src="./images/zero-matrix-amoled.webp" alt="">
+                <h1>Xiaomi Mi Band <br>8 Pro (Global)</h1>
+            </div>
+
+            <div class="card3 cardw">
+                <img src="./images/zero-revoltt.webp" alt="">
+                <h1>Zero Revoltt <br> Smart Watch</h1>
+            </div>
+
+            <div class="card4 cardw">
+                <img src="./images/hk9-pro-plus.webp" alt="">
+                <h1>S9 Ultra Bluetooth <br> Smart Watch</h1>
+            </div>
+
         </div>
     </div>
 
     <!--!-------endbar ----------->
-    <div class="endbar">
-        <div class="icons">
+    <footer id="Contact-us">
 
+        <div class="icons">
+            <a href=""><img src="./images/gmail-icon.png" alt=""></a>
+
+            <a href=""><img src="./images/facebook-icon.png" alt=""></a>
+            
+            <a href="www.linkedin.com/in/muhammad-huzaifa-0b617125b"><img src="./images/linkedin-icon.png" alt=""></a>
+            
+            
         </div>
         <div class="copyright">
-
+            <p>© 2024 digital world. All rights reserved.</p>
         </div>
-    </div>
+        
+    </footer>
 </body>
 </html>
