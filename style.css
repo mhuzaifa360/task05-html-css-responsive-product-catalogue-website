@@ -16,33 +16,54 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 .logo img{
     width: 170px;
 }
 
 .search-bar{
+    /* background: #000 */
+    width: 400px;
     display: flex;
     flex-direction: row;
     /* height: 100px; */
 }
+.bar{
+    width: 100%;
+    /* background: #875e5e; */
+}
 .bar input{
-    width: 300px;
+    width: 100%;
     height: 40px;
     border-radius: 50px;
     padding: 10px;
-    color: ;
+    border: 3px outset black;
+    /* color: ; */
 }
-.icon i{
+.search-icon i{
     color: black;
-    /* z-index: ; */
-
+    background: #ffffff;
+    font-size: 20px;
+    position: relative;
+    right: 34px;
+    top: 5px;
+    border-radius: 80px;
+    padding: 5px;
+    
+    
 }
-.icons img{
-    /* color: #c93939; */
-    width: 30px;
+.search-icon i:hover{
+    color: white;
+    background: #000;
+    
 }
 
+
+.navbar-icons{
+    color: white;
+    font-size: 30px;
+}
 /* *------ HOME CONTENT  ------------ */
 .home-content{
     width: 100%;
@@ -52,11 +73,11 @@ body{
     flex-direction: row;
     align-items: center;
     /* padding: 2%; */
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 .vertical-navbar{
-    width: 28%;
+    width: 24%;
     height: 280px;
     background: white;
     display: flex;
@@ -76,11 +97,29 @@ body{
     text-decoration: none;
     color: black;
 }
-.img img{
-    /* padding-left: 3%; */
-    width: 80%;
+.home-content-img{
+    background: #000;
+    width: 70%;
+}
+.home-content-img img{
+    width: 100%;
     height: 270px;
-    /* z-index: 3; */
+}
+.home-content-img .text{
+    width: 68%;
+    height: 200px;
+    /* background: #000; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+}
+.home-content-img .text h1{
+    text-align: center;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* *------ SMART PHONES  ------------ */
@@ -203,4 +242,8 @@ footer{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.footer-icons img{
+    /* color: #c93939; */
+    width: 50px;
 }
