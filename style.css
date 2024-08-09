@@ -30,6 +30,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid #090979;
     /* flex-wrap: wrap; */
 }
 .logo img{
@@ -78,6 +79,7 @@ body{
     color: white;
     font-size: 30px;
 }
+
 /* *------ HOME CONTENT  ------------ */
 .home-content{
     width: 100%;
@@ -221,6 +223,11 @@ body{
     border:  3px outset #090979;
     box-shadow: 8px 8px 10px 4px  gray;
     outline: 5px solid white;
+
+transition: transform .3s;
+}
+.smart-phones .row1 .card:hover{
+    transform: scale(1.1);
 }
 .smart-phones .card img{
     width: 100%;
@@ -237,22 +244,26 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* *------ LAPTOPS ------------ */
 .laptops{
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* height: 430px; */
-    background: #f2b5e4; 
+    /* height: 900px; */
+    /* background: #9bf0cc; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.laptops h2{
+.laptops span{
     text-align: center;
-}
+    padding-bottom: 40px;
+    font-family: 'font 1';
+    font-size: 40px;
+    color: #090979;
+    text-decoration: underline;
 
+}
 .laptops .row2{
     display: flex;
     flex-direction: row;
@@ -261,21 +272,40 @@ body{
     /* height: 100vh; */
     justify-content: space-evenly;
 }
-
 .laptops .row2 .cardl{
-    width: 300px;
-    height: 270px;
+    width: 260px;
+    height: 46%;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 10px;
+    border:  3px outset #090979;
+    box-shadow: 8px 8px 10px 4px  gray;
+    outline: 5px solid white;
+
+transition: transform .3s;
+}
+.laptops .row2 .cardl:hover{
+    transform: scale(1.1);
 }
 .laptops .cardl img{
-    width: 200px;
+    width: 100%;
 }
-.cardl h3{
-    text-align: center;
+.laptops .cardl h2{
+    /* font-size:  40px; */
+    color: #090979;
+}
+.laptops .cardl h3{
+    background: #090979;
+    color: #fff;
+    padding: 7px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* *------SMART WATCHES ------------ */
@@ -290,10 +320,14 @@ body{
     justify-content: space-evenly;
     /* overflow: visible; */
 }
-.smart-watches h2{
+.smart-watches span{
     text-align: center;
+    padding-bottom: 40px;
+    font-family: 'font 1';
+    font-size: 40px;
+    color: #090979;
+    text-decoration: underline;
 }
-
 .smart-watches .row3{
     display: flex;
     flex-direction: row;
@@ -311,14 +345,25 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border:  3px outset #090979;
+    box-shadow: 8px 8px 10px 4px  gray;
+    outline: 5px solid white;
+    transition: transform .2s;
+}
+.smart-watches .row3 .cardw:hover{
+    transform: scale(1.1);
 }
 .smart-watches .cardw img{
     width: 200px;
 }
 .cardw h1{
-    /* text-align: center; */
     padding-left: 30px;
+    color: #090979;
+    font-family: 'font 2';
+    font-size: 40px;
+    font-weight: 200;
 
 }
 footer{
@@ -337,3 +382,26 @@ footer{
     width: 50px;
     /* box-shadow: 1px 1px 6px 8px white; */
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
