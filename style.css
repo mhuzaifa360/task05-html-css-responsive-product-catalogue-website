@@ -211,7 +211,7 @@ body{
 }
 .smart-phones .row1 .card{
     width: 260px;
-    height: 46%;
+    height: 300px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -600,18 +600,52 @@ footer{
     .laptops span{
         font-size: 25px;
     }
+
     .smart-watches span{
         font-size: 25px;
     }
     .smart-watches .row3 .cardw{
-        width: 300px;
+        width: 280px;
         height: 150px;
     }
     .smart-watches .row3 .cardw img{
-        width: 100px;
+        width: 90px;
     }
     .smart-watches .row3 .cardw h1{
         font-size: 20px;
+    }
+
+
+    .smart-phones .row1 .card{
+        width: 200px;
+        height: auto;
+
+        /* width: 260px;
+        height: 46%; */
+    }
+    .smart-phones .row1 .card img{
+        width: 100px;
+    }
+    .smart-phones .row1 .card h2{
+        font-size: 15px;
+    }
+    .smart-phones .row1 .card h3{
+        font-size: 15px;
+    }
+
+
+    .laptops .row2 .cardl{
+        width: 200px;
+        height: auto;
+    }
+    .laptops .row2 .cardl img{
+        width: 100px;
+    }
+    .laptops .row2 .cardl h2{
+        font-size: 15px;
+    }
+    .laptops .row2 .cardl h3{
+        font-size: 15px;
     }
     footer{
         height: 60px;
