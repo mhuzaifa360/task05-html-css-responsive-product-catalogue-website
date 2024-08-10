@@ -211,7 +211,7 @@ body{
 }
 .smart-phones .row1 .card{
     width: 260px;
-    height: 300px;
+    height: auto;
     background: #fff;
     display: flex;
     justify-content: center;
